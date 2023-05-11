@@ -46,11 +46,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍Vip sᴇᴀʀᴄʜ​', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🎀 Connect API​', url='https://graph.org/JARVIS-05-08-8')
+            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ​', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🤝🏻 Connect API​', url='https://telegra.ph/HARSHA-05-11')
             ],[      
-            InlineKeyboardButton('🕯 ʜᴇʟᴘ 🕯', callback_data='help2'),
-            InlineKeyboardButton('✳️ ᴀʙᴏᴜᴛ ✴️', callback_data='about')
+            InlineKeyboardButton('✨ ʜᴇʟᴘ ✨', callback_data='help2'),
+            InlineKeyboardButton('💌 ᴀʙᴏᴜᴛ 💌', callback_data='about')
             ],[
             InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='money_bot')
         ]] 
@@ -73,10 +73,10 @@ async def start(client, message):
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ​', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🎀Get Unlimited Access🎊​', url='https://graph.org/JARVIS-05-08-6')
+            InlineKeyboardButton('🤝🏻Get Unlimited Access🎊​', url='https://telegra.ph/HARSHA-05-11')
             ],[      
-            InlineKeyboardButton('🕯 ʜᴇʟᴘ 🕯', callback_data='help2'),
-            InlineKeyboardButton('✳️ ᴀʙᴏᴜᴛ ✴️', callback_data='about')
+            InlineKeyboardButton('✨ ʜᴇʟᴘ ✨', callback_data='help2'),
+            InlineKeyboardButton('💌 ᴀʙᴏᴜᴛ 💌', callback_data='about')
             ],[
             InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='money_bot')
         ]] 
@@ -135,7 +135,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [                         
-                          InlineKeyboardButton("❤️‍🔥 Download 👀", url='https://t.me/File_to_Direct_Download_Link_Bot')                         
+                          InlineKeyboardButton("❤️‍🔥 Download 👀", url='https://t.me/FileToLink24Bot')                         
                          ]
                         ]
                     )
@@ -151,7 +151,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("❤️‍🔥 Download ❤️‍🔥", url='https://t.me/File_to_Direct_Download_Link_Bot')   
+                          InlineKeyboardButton("❤️‍🔥 Download ❤️‍🔥", url='https://t.me/FileToLink24Bot')   
                          ]
                         ]
                     )
@@ -249,7 +249,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                          [
-                          InlineKeyboardButton("❤️‍🔥 Download ❤️‍🔥", url='https://t.me/File_to_Direct_Download_Link_Bot')   
+                          InlineKeyboardButton("❤️‍🔥 Download ❤️‍🔥", url='https://t.me/FileToLink24Bot')   
                          ]
                         ]
                     )
@@ -286,7 +286,7 @@ async def start(client, message):
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ  !\nᴋɪɴᴅʟʏ ᴠᴇʀɪꜰʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ! https://graph.org/JARVIS-05-08-6",
+            text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ  !\nᴋɪɴᴅʟʏ ᴠᴇʀɪꜰʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ! https://telegra.ph/HARSHA-05-11",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
@@ -299,7 +299,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("✴️ Download ❤️‍🔥", url='https://t.me/File_to_Direct_Download_Link_Bot')   
+              InlineKeyboardButton("✴️ Download ❤️‍🔥", url='https://t.me/FileToLink24Bot')   
              ]
               ]
        )
