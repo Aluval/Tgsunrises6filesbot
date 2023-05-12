@@ -210,7 +210,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v3.0.1 [ Sᴛᴀʙʟᴇ ]</code></b>
-©丅ᕼᗴ ᔕᗩᑎᗪᗰᗩᑎ ⏳"""
+ 👑Hᴀʀsʜᴀ👑 ⏳"""
 
     LOGO = """
 𝑺𝒕𝒂𝒓𝒕𝒊𝒏𝒈.......🥵"""
@@ -420,9 +420,9 @@ coммand and υѕeѕ
     OWNER_TXT = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
-<b>• ꜰᴜʟʟ ɴᴀᴍᴇ :</b> || 𒆜𓆩Dᴀʀᴇ Dᴇᴠɪʟ𓆩 ||
-<b>• ᴜꜱᴇʀɴᴀᴍᴇ : @Aay700</b>
-<b>• Channel : <a href='https://t.me/z_harbour'</a></b>
+<b>• ꜰᴜʟʟ ɴᴀᴍᴇ :</b> || 👑Hᴀʀsʜᴀ👑 ||
+<b>• ᴜꜱᴇʀɴᴀᴍᴇ : @SUNRISES_24</b>
+<b>• Channel : <a href='https://t.me/sunriseseditsoffical6'</a></b>
 """
     CLOSE_TXT = """
 <b>⚙️ {message.from_user.mention} Fɪʟᴛᴇʀ Fᴏʀ {search} Cʟᴏꜱᴇᴅ 🗑️</b>"""
