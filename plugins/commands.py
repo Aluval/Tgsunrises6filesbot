@@ -44,10 +44,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('✨ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ​', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤝🏻 Connect API​', url='https://telegra.ph/HARSHA-05-11')
+            InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇​', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('💫 𝐂𝐇𝐀𝐍𝐍𝐄𝐋​', url='https://t.me/sunriseseditsoffical6')
             ],[      
             InlineKeyboardButton('✨ ʜᴇʟᴘ ✨', callback_data='help2'),
             InlineKeyboardButton('💌 ᴀʙᴏᴜᴛ 💌', callback_data='about')
@@ -70,10 +70,10 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('✨ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ​', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤝🏻Get Unlimited Access🎊​', url='https://telegra.ph/HARSHA-05-11')
+            InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇​', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('💫 𝐂𝐇𝐀𝐍𝐍𝐄𝐋​', url='https://t.me/sunriseseditsoffical6')
             ],[      
             InlineKeyboardButton('✨ ʜᴇʟᴘ ✨', callback_data='help2'),
             InlineKeyboardButton('💌 ᴀʙᴏᴜᴛ 💌', callback_data='about')
