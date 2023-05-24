@@ -1362,12 +1362,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✨ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇​', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('💫 𝐂𝐇𝐀𝐍𝐍𝐄𝐋​', callback_data='money_bot')
+            InlineKeyboardButton('💫 𝐂𝐇𝐀𝐍𝐍𝐄𝐋​', url='https://t.me/sunriseseditsoffical6')
             ],[      
             InlineKeyboardButton('🎯 𝐇𝐄𝐋𝐏 🎯', callback_data='help2'),
             InlineKeyboardButton('💌 𝐀𝐁𝐎𝐔𝐓 💌', callback_data='about')
             ],[
-            InlineKeyboardButton('🌟 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🌟', callback_data='money_bot')
+            InlineKeyboardButton('🌟 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🌟', url='https://t.me/Sunrises_Bot_discussion_Group')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
