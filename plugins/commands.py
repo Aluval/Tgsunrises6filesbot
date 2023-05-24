@@ -49,7 +49,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇​', switch_inline_query_current_chat=''),
             InlineKeyboardButton('💫 𝐂𝐇𝐀𝐍𝐍𝐄𝐋​', url='https://t.me/sunriseseditsoffical6')
             ],[      
-            InlineKeyboardButton('✨ 𝐇𝐄𝐋𝐏 ✨', callback_data='help2'),
+            InlineKeyboardButton('🎯 𝐇𝐄𝐋𝐏 🎯', callback_data='help2'),
             InlineKeyboardButton('💌 𝐀𝐁𝐎𝐔𝐓 💌', callback_data='about')
             ],[
             InlineKeyboardButton('🌟 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🌟', url='https://t.me/Sunrises_Bot_discussion_Group')
@@ -75,7 +75,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇​', switch_inline_query_current_chat=''),
             InlineKeyboardButton('💫 𝐂𝐇𝐀𝐍𝐍𝐄𝐋​', url='https://t.me/sunriseseditsoffical6')
             ],[      
-            InlineKeyboardButton('✨ 𝐇𝐄𝐋𝐏 ✨', callback_data='help2'),
+            InlineKeyboardButton('🎯 𝐇𝐄𝐋𝐏 🎯', callback_data='help2'),
             InlineKeyboardButton('💌 𝐀𝐁𝐎𝐔𝐓 💌', callback_data='about')
             ],[
             InlineKeyboardButton('🌟 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🌟', url='https://t.me/Sunrises_Bot_discussion_Group')
