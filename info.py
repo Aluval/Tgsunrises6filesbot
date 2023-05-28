@@ -89,7 +89,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # Others
 VERIFY = bool(environ.get('VERIFY',False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'kpslink.in') #
-SHORTLINK_API = environ.get('SHORTLINK_API', '782badc659d02e06366fe4f14983c209e458ecb0) #
+SHORTLINK_API = environ.get('SHORTLINK_API', '782badc659d02e06366fe4f14983c209e458ecb0') #
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',False))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG',False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
