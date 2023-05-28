@@ -88,8 +88,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
 VERIFY = bool(environ.get('VERIFY',False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorturllink.in') #
-SHORTLINK_API = environ.get('SHORTLINK_API', '652e60db3da459d3f15dbb1775fa0aaf62b6ec4c') #
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'kpslink.in') #
+SHORTLINK_API = environ.get('SHORTLINK_API', '782badc659d02e06366fe4f14983c209e458ecb0) #
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',False))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG',False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
@@ -108,7 +108,7 @@ IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")),True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", None)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
